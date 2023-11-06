@@ -2,7 +2,7 @@
 
 The goal of this lab will be taking previous circuit theory and schematic knowledge and turning it into a PCB layout. The lab will be using the Electrical computer-aided design (ECAD) software [Altium](https://www.altium.com/)
 
-![[https://github.com/HarrisonMKG/space-school-pcb/tree/dev/docs/Pasted_image_20231102211420.png]]
+[!alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231102211420.png)
 ## Pre-Lab
 
 Download and install Altium designer (this is a pre-requisite and should be done BEFORE the lab). Since space school member are students of Queen's University they will be able to get a license for free from [Altium Education](https://www.altium.com/education/student-licenses)
