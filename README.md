@@ -10,7 +10,8 @@ Download and install Altium designer (this is a pre-requisite and should be done
 
 Start a new project by doing `File>New>Project` and name it something generic eg. “my_tosat” and make the project type a "Default PCB Project". **Note Remember to click activate workspace and put the project in the cloud icon at the top left.**
 
-![alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231103165545.png)
+![image](https://github.com/HarrisonMKG/space-school-pcb/assets/60119461/bd0ec4f0-a3fb-4c78-ab8a-152adc58d15b)
+
 
 ### Schematic - Searching for Parts 
 In the new project select `File> New> Schematic` for your schematic view. You should be presented with the view as seen below:
