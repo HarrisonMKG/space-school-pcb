@@ -8,19 +8,19 @@ The goal of this lab will be taking previous circuit theory and schematic knowle
 Download and install Altium designer (this is a pre-requisite and should be done BEFORE the lab). Since space school member are students of Queen's University they will be able to get a license for free from [Altium Education](https://www.altium.com/education/student-licenses)
 ## During Lab
 
-Start a new project by doing `File>New>Project` and name it something generic eg. “my_tosat”
+Start a new project by doing `File>New>Project` and name it something generic eg. “my_tosat” and make the project type a "Default PCB Project". **Note Remember to click activate workspace and put the project in the cloud icon at the top left.**
 
 ![alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231103165545.png)
 
 ### Schematic - Searching for Parts 
-In the new project select `Source Documenets> Sheet1` for your schematic view. You should be presented with the view as seen below:
+In the new project select `File> New> Schematic` for your schematic view. You should be presented with the view as seen below:
 
 ![alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231103165515.png)
 
 ![[Pasted image 20231103165208.png]]
 Our circuit requires specific ICs in order to work correctly. Due to this, there are specific pin-out and sizing constraints we must follow in order to make sure the theoretical design matches the actual implementation. 
 
-To help us adhere to these constraints within our design phase, we need to use the actual model of the component within Altium. We can find majority of the components we need for development within the "Manufacturer Part Search" on tool bar on the right hand side of the screen.
+To help us adhere to these constraints within our design phase, we need to use the actual model of the component within Altium. We can find majority of the components we need for development within the "Manufacturer Part Search" on tool bar on the right hand side of the screen.%%  %%
 **Note: If not there do `View>Panels>Manufactuer Part Search`**
 
 ![alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231103112800.png)
@@ -40,7 +40,7 @@ This project will need several component not normally found in Altium so we will
 - Arudino Nano Every(ABX00028.IntLib)
 - SD Card Reader (MICROSD_SPI_OR_SDIO_CARD.IntLib)
 
-Drag each of these files into Altium and a window below should pop up where you want to select "Import".
+Drag each of these files into Altium and a window below should pop up where you want to select "Import". **If you are having issues with this, you can also do `Components>Import Library`**
 
 ![alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231102211819.png)
 
@@ -102,7 +102,7 @@ The final product should look something like the image below:
 
 
 ### Layout - Transform Schematic into Layout
-Now you are ready to take on the layout of the actual PCB. Update you PCB document, to do this click on `Design>Update PCB Document` in the tool bar
+Now you are ready to take on the layout of the actual PCB. First do, `File>New>PCB` Update you PCB document, to do this click on `Design>Update PCB Document` in the tool bar.
 
 ![alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231103161057.png)
 
@@ -115,7 +115,7 @@ Now you will be met with the screen below showing the PCB and all the components
 ![alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231103161253.png)
 
 ### Layout - Size of PCB
-Press `1` to enter board planning mode. After we want to change the dimensions of the PCB so click `Design>Edit Board Shape`.  We will reshape the dimensions to be **X** by **Y**
+Press `1` to enter board planning mode. After we want to change the dimensions of the PCB so click `Design>Edit Board Shape`.  We will reshape the dimensions to be **10cm** by **7cm**
 ![[Pasted image 20231103161522.png]]
 ### Layout - Routing
 Press `2` to switch back to layout mode and move all the components to the center of the board. This can be seen below:
