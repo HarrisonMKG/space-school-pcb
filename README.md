@@ -17,7 +17,7 @@ In the new project select `File> New> Schematic` for your schematic view. You sh
 
 ![alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231103165515.png)
 
-![[Pasted image 20231103165208.png]]
+![alt text](https://github.com/HarrisonMKG/space-school-pcb/blob/739b23a0e3657eb07eec198d646021f00f01a6ff/docs/Pasted_image_20231103165208.png)
 Our circuit requires specific ICs in order to work correctly. Due to this, there are specific pin-out and sizing constraints we must follow in order to make sure the theoretical design matches the actual implementation. 
 
 To help us adhere to these constraints within our design phase, we need to use the actual model of the component within Altium. We can find majority of the components we need for development within the "Manufacturer Part Search" on tool bar on the right hand side of the screen.%%  %%
